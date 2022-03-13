@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.contimgAstro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.home_head{
+  display: flexbox;
+  margin-left: 40px;
+  position: absolute;
+  top: 1rem;
+  z-index: 10;
+  background-color: transparent;
+
+ }
+.home_text_background_gris {
+    background-color: #283747;
+    padding-inline: 10px;
+    -webkit-filter: drop-shadow(5px 5px #34495E);
+    filter: drop-shadow(8px 6px #34495E);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;  
+}
+.home_text_hightext{
+  font-family: Montserrat;
+  font-weight: bolder;
+  font-size: 4em;
+  font-weight: 500;
+  color: #fff;
+}
+.home_text{
+  font-size: 4em;
+  font-family: Montserrat;
+  font-weight: bolder;
+  color: gray;
+}
+
+#section_sobre_mi{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  font-family: Montserrat ;
+  padding: 5rem 10rem;
+  min-height: 600px;
+  
+}
+
+.titulo_sobre_mi, .titulo_proyectos, .titulo_habilidades, .titulo_contactame{
+  background-color: #283747;
+  -webkit-filter: drop-shadow(8px 8px #34495E);
+  filter: drop-shadow(8px 6px #34495E);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; 
+  margin-bottom: 2rem;
+ 
+}
+.descriptionSobreMi{
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin: 2rem
+}
+.ver_mapa_de_ruta{
+  color: darkgray;
+  text-decoration: none;
+
+}
+.descargar_cerificado{
+  text-decoration: none;
+  background-color: #283747;
+  -webkit-filter: drop-shadow(8px 8px #34495E);
+  filter: drop-shadow(8px 6px #34495E);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; 
+  margin-bottom: 2rem;
+  font-family: Montserrat ;
+  font-size: 300%;
+}
+
+
+.display-5{
+  background-color: #F06293;
+  -webkit-filter: drop-shadow(8px 8px #E91E63);
+  filter: drop-shadow(8px 6px #E91E63);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content; 
+  margin-bottom: 2rem;  
+}
+.section_habilidades, .section_contactame{
+  display: flex;
+  flex-direction: column;
+  font-family: Montserrat ;
+  padding: 5rem 10rem;
+  min-height: 600px;
+
+}
+.section_proyectos{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  font-family: Montserrat;
+  padding: 5rem 10rem;
+  min-height: 600px;
+}
+.card-text{
+  font-size: larger;
+}
+
+.containerContact{
+ max-width: 500px !important;
+}
+.form-contact{
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+  color: white;
+}
+
+header span{
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.contact{
+  font-family: Montserrat;
+  font-size: larger;
+  padding: .8rem;
+  overflow: hidden;
+}
+
+.contact label, .contact input, .contact textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.contact label{
+  font-weight: 700;
+}
+
+.contact input:not([type="submit"]), .contact textarea{
+  border: none;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: black;
+}
+
+.contact textarea{
+  min-height: 100px;
+}
+
+.boton{
+  padding: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.section_footer{  
+  font-family: Montserrat;
+  font-size: xx-large;
+  text-decoration-color: white;
+  background-color: black; 
+  text-align: center; 
+  padding: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
